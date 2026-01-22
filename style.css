@@ -115,7 +115,13 @@ nav a.active {
     background-color: #fff8e1;
 }
 
-.banner img {
+.banner a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner a img {
     width: 100%;
     height: auto;
     object-fit: cover;
