@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - แผนกเทคโนโลยีสารสนเทศ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="logo.png" alt="IT Logo">
+                <div class="site-title">
+                    <h1>แผนกเทคโนโลยีสารสนเทศ</h1>
+                    <p>Information Technology Department</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="curriculum.html">หลักสูตร</a></li>
+            <li><a href="activities.html">กิจกรรม</a></li>
+            <li><a href="news.html">ข่าวประชาสัมพันธ์</a></li>
+            <li><a href="contact.html" class="active">ติดต่อเรา</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>ติดต่อเรา</h2>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+            <div style="flex: 1; min-width: 300px;">
+                <h3>ข้อมูลการติดต่อ</h3>
+                <p><strong>ที่อยู่:</strong><br>
+                    แผนกเทคโนโลยีสารสนเทศ<br>
+                    วิทยาลัยเทคนิคสระแก้ว<br>
+                    อำเภอเมือง จังหวัดสระแก้ว</p>
+                <br>
+                <p><strong>เบอร์โทรศัพท์:</strong> 080-993-5624 (ครูตา), 087-136-6584 (ครูนิกกี้)</p>
+                <p><strong>Facebook:</strong> แผนกเทคโนโลยีสารสนเทศ</p>
+                <p><strong>Email:</strong> admin@itdepartment.com</p>
+            </div>
+
+            <div style="flex: 1; min-width: 300px;">
+                <h3>ส่งข้อความถึงเรา</h3>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">ชื่อ-นามสกุล:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">อีเมล:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="topic">เรื่องที่ติดต่อ:</label>
+                        <input type="text" id="topic" name="topic">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">ข้อความ:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">ส่งข้อความ</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 แผนกเทคโนโลยีสารสนเทศ วิทยาลัยเทคนิคสระแก้ว</p>
+        <p>พัฒนาโดย นักศึกษาแผนกเทคโนโลยีสารสนเทศ</p>
+    </footer>
+
+</body>
+
+</html>
